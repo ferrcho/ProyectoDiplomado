@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styles/index.css";
+import propTypes from "prop-types";
 
 const Content = () => (
     <>
@@ -43,5 +44,9 @@ const Content = () => (
         </aside>
     </>
 )
+
+Content.propTypes = {
+    image: propTypes.string
+};
 
 export default Content

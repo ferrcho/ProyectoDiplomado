@@ -4,8 +4,8 @@ const Footer = () => (
     <>
         <footer id="pie">
             <div class="infoDate">
-                <span>Terminos y condiciones</span>
-                <span>glofoc@gmail.com</span>
+                <span>Terminos y condiciones </span>
+                <span>glofoc@gmail.com </span>
                 <span>5698741236</span>
             </div>
             <div class="btnInfo">

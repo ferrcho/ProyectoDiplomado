@@ -1,11 +1,25 @@
 import React from 'react'
-import propTypes from "prop-types";
 import "../styles/index.css";
+import car from '../images/corusel_1.jpg';
+import car2 from '../images/corusel_2.jpg';
+import car3 from '../images/corusel_3.jpg';
 
-const Carousel = ({ image }) => (
+const Carousel = () => (
     <>
         <div className="carousel_tam">
-        <iframe width="1024" height="500" src="https://www.youtube.com/embed/y4RD2BVu91c?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src={car} class="d-block w-100" alt="..."></img>
+                    </div>
+                    <div class="carousel-item">
+                        <img src={car2} class="d-block w-100" alt="..."></img>
+                    </div>
+                    <div class="carousel-item">
+                        <img src={car3} class="d-block w-100" alt="..."></img>
+                    </div>
+                </div>
+            </div>
         </div>
     </>
 )

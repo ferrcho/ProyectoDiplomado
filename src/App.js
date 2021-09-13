@@ -4,7 +4,7 @@ import Carousel  from './components/Carousel';
 import Content from './components/Content';
 import Footer from './components/footer';
 import "./styles/index.css";
-import logo from './logo2.png';
+import logo from '../src/images/logo.jpg';
 
 function App() {
   return (

@@ -7,16 +7,16 @@ import car3 from '../images/corusel_3.jpg';
 const Carousel = () => (
     <>
         <div className="carousel_tam">
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src={car} class="d-block w-100" alt="..."></img>
+            <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
+                <div className="carousel-inner">
+                    <div className="carousel-item active">
+                        <img src={car} className="d-block w-100" alt="..."></img>
                     </div>
-                    <div class="carousel-item">
-                        <img src={car2} class="d-block w-100" alt="..."></img>
+                    <div className="carousel-item">
+                        <img src={car2} className="d-block w-100" alt="..."></img>
                     </div>
-                    <div class="carousel-item">
-                        <img src={car3} class="d-block w-100" alt="..."></img>
+                    <div className="carousel-item">
+                        <img src={car3} className="d-block w-100" alt="..."></img>
                     </div>
                 </div>
             </div>

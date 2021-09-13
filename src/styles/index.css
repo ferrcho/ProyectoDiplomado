@@ -25,12 +25,16 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-section {
+#section {
     float: left;
     width: 40%;
     margin: 20px;
     padding-left: 50px;
     display: block;
+}
+
+#section img {
+    width: 50%;
 }
 
 #columna {
@@ -39,7 +43,6 @@ section {
     height: 45%;
     margin: 20px 0px;
     padding: 20px;
-    background: #bcd4e6;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);

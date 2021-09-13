@@ -5,6 +5,7 @@ import Content from './components/Content';
 import Footer from './components/footer';
 import "./styles/index.css";
 import logo from '../src/images/logo.jpg';
+// import $ from 'jquery'
 
 function App() {
   return (
@@ -17,7 +18,6 @@ function App() {
       <Carousel/>
       <hr></hr>
       <Content/>
-      <hr></hr>
       <Footer/>
     </div>
   )
